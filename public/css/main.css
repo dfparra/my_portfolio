@@ -1,12 +1,12 @@
 html{
   background-color: deepskyblue;
-  font-family: cursive;
+  font-family: helvetica;
 }
 
 #navigation li {
   list-style: none;
   display: inline;
-  margin-right: 350px;
+  margin-right: 333px;
 }
 
 #navigation li a{
@@ -20,4 +20,28 @@ html{
   height: 100px;
   background-color: tomato;
   border: 2px solid midnightblue;
+}
+
+#home_text h1 {
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 20px;
+  /*color: rgba(0,0,255,0.5);*/
+
+}
+
+/*#home_text h1:after{
+  position: absolute; left: 10px; top: 5px;
+
+	color: rgba(255,0,0,0.5);
+}*/
+
+#home_text h2{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#home_text h3{
+  text-align: center;
+  text-transform: uppercase;
 }
